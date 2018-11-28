@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=K2D|Raleway');
+
+@-webkit-keyframes rotate-in-center {
+	0% {
+		-webkit-transform: rotate(-360deg);
+		transform: rotate(-360deg);
+		opacity: 0;
+	}
+	100% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0);
+		opacity: 1;
+	}
+}
+
+@keyframes rotate-in-center {
+	0% {
+		-webkit-transform: rotate(-360deg);
+		transform: rotate(-360deg);
+		opacity: 0;
+	}
+	100% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0);
+		opacity: 1;
+	}
+}
+
+html {
+	background-color: #bbc2c7;
+	height: 100%;
+}
+
+::-webkit-scrollbar {
+	width: 0px; /* remove scrollbar space */
+	background: transparent; /* optional: just make scrollbar invisible */
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	height: 100%;
+	margin: 0;
+}
+
+#app {
+	height: 100%;
+	margin: 0;
+}
+
+.app-container {
+	height: 100%;
+	margin: 0;
+}
+
+#page-wrap {
+	height: 100%;
+	overflow: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* .clickable {
+	cursor: pointer;
+	border: none;
+} */
+
+.navblock {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 1rem;
+}
+
+.logo {
+	-webkit-animation: rotate-in-center 0.6s
+		cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.2s both;
+	animation: rotate-in-center 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.2s
+		both;
+	height: 5vh;
+}
+
+.app-name {
+	font-family: 'K2D';
+	color: #2d333a;
+	font-size: 3vh;
+	letter-spacing: 0.2rem;
+	margin: 0.5rem;
+}
+
+.link-home {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+/* Dimensions/position of burger button */
+.bm-burger-button {
+	position: absolute;
+	width: 1.4rem;
+	height: 1.3rem;
+	right: 1.1rem;
+	top: 1.5rem;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+	background: #373a47;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+	height: 5vh;
+	width: 5vw;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+	background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+	background: #4b6887;
+	font-size: 1.15rem;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+	fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+	color: #b8b7ad;
+}
+
+/* Individual item */
+.bm-item {
+	color: #bdc3c7;
+	font-family: 'K2D';
+	display: block;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 1.4rem;
+	letter-spacing: 0.35rem;
+	margin: 0.4rem;
+	padding: 1rem 1rem 1rem 0.7rem;
+	font-weight: 600;
+	transition: transform 0.8s cubic-bezier(0.7, 0, 0.3, 1) 0s;
+}
+
+nav a:hover {
+	transition: 0.3s ease-in-out;
+	border-bottom: 0.2rem solid #bdd630;
+	margin-bottom: -0.21rem;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.auth-form {
+	background: #a7da9c;
+	margin: 5rem;
+	padding: 2rem;
+	border-radius: 1rem;
+}
+
+.auth-form-form {
+	display: flex;
+	align-items: center;
+	flex-flow: column;
+}
+
+input {
+	border-color: transparent;
+	text-align: center;
+	border-radius: 0.3em;
+	margin: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.button-google {
+	margin: 1rem;
+	border-radius: 0.3rem;
+	letter-spacing: 0.09rem;
+}
+
+img.google-icon {
+	height: 1rem;
+	margin-left: 0.5rem;
+	position: relative;
+	top: 0.1rem;
+}
+
+button {
+	padding: 0.7rem;
+	cursor: pointer;
+	border: none;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	border-radius: 0.3rem;
+	transition: 0.3s ease-in-out;
+}
+
+button:hover {
+	background: #814982;
+	color: #fff;
+}
+
+.greeting {
+	padding: 2rem 4rem 0rem 4rem;
+	text-align: center;
+	color: #2C333A;
+}
+
+.intro {
+	padding: 1.5rem 4rem 0rem 4rem;
+	text-align: left;
+	color: #2C333A;
+}
+
+.quote {
+	padding:0rem 4rem 0rem 4rem;
+	text-align: center;
+	font-style: italic;
+	color: #2C333A;
+}
+
+.close {
+	padding: 1rem 1rem 1rem 1rem;
+	margin: 0rem 20rem 0rem 0rem;
+	text-align: right;
+	color: #2C333A;
+}
