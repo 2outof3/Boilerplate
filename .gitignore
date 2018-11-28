@@ -1,0 +1,13 @@
+# project-specific folders and files
+public/bundle.js
+public/bundle.js.map
+
+# installed packages and such
+node_modules
+package-lock.json
+
+# secrets... d'uh
+secrets.js
+
+# webpack output
+output/**
