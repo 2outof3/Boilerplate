@@ -7,7 +7,7 @@ const Navbar = () => (
   <div className="navblock">
     <Link to="/" className="link-home">
       <img className="logo" src="/images/flower.png" alt="flower logo" />
-      <h1 className="app-name">QuickI18n</h1>
+      <h1 className="app-name">BOILERPLATENAME</h1>
     </Link>
   </div>
 )
