@@ -9,24 +9,24 @@ module.exports = {
 		'@babel/polyfill', // enables async-await
 		'./client/index.js' // app injection point here
 	],
-	  optimization: {
-	    minimizer: [
-	      new UglifyJsPlugin({
-	        cache: true,
-	        parallel: true,
-	        sourceMap: true // set to true if you want JS source maps
-	      }),
-	      new OptimizeCSSAssetsPlugin({})
-	    ]
-	  },
+	  // optimization: {
+	  //   minimizer: [
+	  //     new UglifyJsPlugin({
+	  //       cache: true,
+	  //       parallel: true,
+	  //       sourceMap: true // set to true if you want JS source maps
+	  //     }),
+	  //     new OptimizeCSSAssetsPlugin({})
+	  //   ]
+	  // },
 	output: {
 		path: __dirname,
-		// filename: 'public/bundle.js' // app ejection point here (all bundled up!)
-		filename: 'output/[name].[contenthash].js' // app ejection point here (all bundled up!)
+		filename: 'public/bundle.js' // app ejection point here (all bundled up!)
+		// filename: 'output/[name].[contenthash].js' // app ejection point here (all bundled up!)
 	},
-	  plugins: [
-	    new CleanWebpackPlugin(['dist'])
-	],
+	//   plugins: [
+	//     new CleanWebpackPlugin(['dist'])
+	// ],
 	stats: 'errors-only', //minimizes logging of webpack
 	resolve: {
 		extensions: ['.js', '.jsx']
