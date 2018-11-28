@@ -1,0 +1,74 @@
+[
+	{
+		"id": 1,
+		"name": "Support",
+		"spiritAnimal": "Choloepus hoffmani",
+		"description": "empower open-source client relations"
+	},
+	{
+		"id": 2,
+		"name": "Marketing",
+		"spiritAnimal": "Ammospermophilus nelsoni",
+		"description": "repurpose virtual interfaces"
+	},
+	{
+		"id": 3,
+		"name": "Engineering",
+		"spiritAnimal": "Macropus rufogriseus",
+		"description": "deploy next-generation supply-chains"
+	},
+	{
+		"id": 4,
+		"name": "Traditional Accounting",
+		"spiritAnimal": "Clippy the Paperclip",
+		"description": "recontextualize e-business capital"
+	},
+	{
+		"id": 5,
+		"name": "Corporate Morale",
+		"spiritAnimal": "Diceros bicornis",
+		"description": "integrate web-enabled passions"
+	},
+	{
+		"id": 6,
+		"name": "Legaleese",
+		"spiritAnimal": "Anser caerulescens",
+		"description": "architect cutting-edge but legal experiences"
+	},
+	{
+		"id": 7,
+		"name": "Emotional Accounting",
+		"spiritAnimal": "Recurvirostra avosetta",
+		"description": "morph scalable sentimental solutions"
+	},
+	{
+		"id": 8,
+		"name": "Product Management",
+		"spiritAnimal": "Tayassu pecari",
+		"description": "recontextualize transparent workplace channels"
+	},
+	{
+		"id": 9,
+		"name": "Business Development",
+		"spiritAnimal": "Genetta genetta",
+		"description": "unleash strategic powerups for business"
+	},
+	{
+		"id": 10,
+		"name": "Meme Sales",
+		"spiritAnimal": "Boa caninus",
+		"description": "optimize wireless mindshare"
+	},
+	{
+		"id": 11,
+		"name": "Design",
+		"spiritAnimal": "Hymenolaimus malacorhynchus",
+		"description": "harness clicks-and-mortar possibilities for aesthetic solutions"
+	},
+	{
+		"id": 12,
+		"name": "Food Sales",
+		"spiritAnimal": "Semnopithecus entellus",
+		"description": "implement 24/365 nutrition supply-chains for everyone in the company"
+	}
+]
