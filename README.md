@@ -36,8 +36,7 @@ module.exports = {
 
 
 TODO:
--Add images to landing page, maybe a corousel, etc
--make responsive
+-Add grommet
 -fix loading issue
 -internationalize
 -1figure out whats up with webpack

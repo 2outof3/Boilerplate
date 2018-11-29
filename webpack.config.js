@@ -27,7 +27,7 @@ module.exports = {
 	//   plugins: [
 	//     new CleanWebpackPlugin(['dist'])
 	// ],
-	stats: 'errors-only', //minimizes logging of webpack
+	stats: 'errors-only', //minimizes webpack logs
 	resolve: {
 		extensions: ['.js', '.jsx']
 	},
