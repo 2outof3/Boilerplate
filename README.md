@@ -39,4 +39,8 @@ TODO:
 -Add grommet
 -fix loading issue
 -internationalize
--1figure out whats up with webpack
+-figure out whats up with webpack
+-check out why react-burger-menu import option doesn't work
+
+
+note: polished and styled-components removed
